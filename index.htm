@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta lang="ja">
+    </head>
+    <body>
+        <h1>疑似縦書き生成器</h1>
+        <section>
+            <article>
+                <h2>入出力</h2>
+                <textarea id="入力欄" placeholder="ここに横書き文字を入力"></textarea>
+                <p><input type="button" onclick="main()" value="変換"></p>
+                <p id="出力欄"></p>
+                <textarea id="ダミー" style="width: 0; height: 0; opacity: 0;"></textarea>>
+                <p><input type="button" onclick="コピー()" value="結果をコピー"></p>
+            </article>
+            <aside>
+                <h2>設定</h2>
+                <ul>
+                    <li>一行目の右にスペースを<input type="button" value="「入れる」に変更" id="右ボタン" onclick="右変更()"></li>
+                    <li>最終行の左にスペースを<input type="button" value="「入れる」に変更" id="左ボタン" onclick="左変更()"></li>
+                    <li>行間にスペースを<input type="button" value="「入れる」に変更" id="中ボタン" onclick="中変更()"></li>
+                </ul>
+            </aside>
+        </section>
+        <script src="main.js"></script>
+    </body>
+</html>
