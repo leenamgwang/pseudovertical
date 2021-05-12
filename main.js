@@ -27,7 +27,7 @@ function main(){
                 }
             }
         }
-        if(右分割){列分割[i]="　";}
+        if(右空白){列分割[i]="　";}
     }
     出力 = 列分割.join('\n');
     document.getElementById("出力欄").innerText = 出力;
