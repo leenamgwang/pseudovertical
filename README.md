@@ -1,7 +1,7 @@
 # 疑似縦書き生成機
 ## リンク
 
-[GitHub Pagesで開く](https://leenamgwang.github.io/pseudovertical/)
+[GitHub Pagesで開く](https://notolyte.github.io/pseudovertical/)
 
 ## 簡介
 横書きメディアにおいて文字を並べ替えて疑似的な縦書きを使用するために，横書きの文章の文字を適当な順番に並べ替えます。
